@@ -198,8 +198,27 @@ line-height: 28px; /* 175% */
 
 footer{
     display: flex;
+    gap: 117px;
     background: #FFF8F3;
     padding: 130px 230px;
+}
+.footer-column{
+    width: 50%;
+
+}
+.social-links a{
+    margin: 25px;
+}
+.contact input[type="text"],.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    border-radius: 5px;
+background: var(--White-Color, #FFF);
+padding: 18px 30px;
+color: var(--Dark-03, #757575);
+border: 0px;
+width: 100%;
 }
 
 
