@@ -1,8 +1,17 @@
+
+
+
 /* common shard style */
 body {
     font-family: 'Open Sans', sans-serif;
 
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
 .section-title {
     color: var(--Dark-01, #181818);
 text-align: center;
@@ -18,6 +27,7 @@ font-weight: 700;
     line-height: 30px; 
    
 }
+
 
 /* nav related style */
 nav {
@@ -111,7 +121,19 @@ margin-bottom: 30px;
 background: #FFF8F3;
 margin:130px 0px ;
  }
+ .about-info-container {
+    display: flex;
+    justify-content: space-around;
+ }
+ .about-info {
+    text-align: center;
+ }
 
+
+
+
+
+ 
 
 
  
